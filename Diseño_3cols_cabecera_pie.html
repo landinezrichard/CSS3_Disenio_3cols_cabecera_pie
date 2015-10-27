@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Layout - Diseño 3cols - cabecera - pie pág.</title>
+		
+		<!--Hojas de estilo -->
+		<link rel="stylesheet" type="text/css" href=""/>
+		
+		<style type="text/css">
+			body {
+				background: #FFF;
+			}			
+							
+			#contenedor {
+				/*Para que se ajuste dinamicamente comentar el width*/
+				/*
+				width:700px;
+				*/
+				background: #CCC;				
+			}
+			#cabecera {
+				background:#F2F2F2;
+				
+			}
+			#menu {
+				float: left;
+				/*
+				width:150px;
+				*/
+				/*Para que se ajuste dinamicamente*/
+				width: 15%;
+				
+				background:#A4A4A4;
+				
+			}
+			#contenido {
+				float: left;
+				/*
+				width:550px;
+				*/
+				/*Para que se ajuste dinamicamente*/
+				
+				width: 85%;
+				
+				background:#BDBDBD;
+				
+			}
+			
+			#contenido #principal {
+				float: left;
+				width: 80%;
+				
+				background:#8258FA;
+			}
+			#contenido #secundario {
+				float: left;
+				width: 20%;
+				
+				background:#9F81F7;
+			}
+			
+			#pie {
+				clear: both;
+				background:#585858;
+				
+			}
+		</style>	
+		<!--Scripts Aca -->
+		<script type="text/javascript" src="">
+		</script>
+	</head>
+	<body>
+		<div id="contenedor">
+			<div id="cabecera">
+				Cabecera
+			</div>
+		 
+			<div id="menu">
+				Menú
+			</div>
+		 
+			<div id="contenido">
+				<div id="principal">
+					Contenido Principal
+				</div>
+ 
+				<div id="secundario">
+					Contenido Secundario
+				</div>
+			</div>
+		 
+			<div id="pie">
+				Pie de Página
+			</div>
+		</div>
+	</body>
+</html>
